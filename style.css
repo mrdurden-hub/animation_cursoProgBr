@@ -1,0 +1,19 @@
+@keyframes changeColor{
+   0% {background-color: blue; width: 200px;}
+   25% {background-color: yellow;}
+   50% {background-color: gray; width: 1200px;}
+   75% {background-color: green;;}
+   100% {background-color: pink; width: 200px;}
+}
+
+.squar{
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    animation-name: changeColor;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+.container{
+    display: flex;
+}
